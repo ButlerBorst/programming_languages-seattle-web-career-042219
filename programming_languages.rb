@@ -24,3 +24,14 @@ def reformat_languages(languages)
   new_languages[:javascript][:style] << :oo
   new_languages
 end
+
+languages = {
+  :oo => {
+    :ruby => {
+      :type => "interpreted"
+    },
+    :javascript => {
+      :type => "interpreted"
+    },
+    :python => {
+      :type
